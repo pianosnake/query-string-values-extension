@@ -14,7 +14,7 @@ window.processTabUrl = function(tabUrl) {
 		var table = document.getElementById("query-values");
 
 
-		for(var i = 0, len = values.length; i< len; i++){
+		for(var i = 0, len = values.length; i<len; i++){
 			itemsFound = true;
 			var row = document.createElement("tr");
 			var colName = document.createElement("td");

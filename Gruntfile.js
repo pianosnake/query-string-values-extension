@@ -67,6 +67,8 @@ module.exports = function(grunt) {
         }
     });
 
+  //`grunt build` only worked after i did this
+  //npm install grunt-contrib-jshint --save-dev
     grunt.registerTask('test', ['jshint']);
     grunt.registerTask('build', ['jshint', 'copy', 'file-creator', 'compress', 'clean']);
 
